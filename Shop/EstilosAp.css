@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+background: url(https://wallpaperaccess.com/full/2454628.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+  }
+  
+  
+  #total {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  
+  .producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .producto img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  
+  .producto h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  
+  .producto p {
+    margin: 5px 0;
+  }
+  
+  
+  .btn-comprar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-borrar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .carrito {
+    display:flex
+  }
+  
+  .btn-comprar:hover {
+    background-color: #218838;
+  }
+  
+  .btn-borrar:hover {
+    background-color: #218838;
+  }
+  
+  #carrito {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  
+  #carrito h2 {
+    font-size: 1em;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  
+  
+  
